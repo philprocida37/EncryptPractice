@@ -1,13 +1,4 @@
-# number message encoder/decoder. to decode an encoded message you would need:
-	# the lookup table (switchBoard)
-	# the starting values (randomizedMessage)
-	# the iterations for each value (decodeCoords)
-# wordConverion = {
-# "a" = "582",
-# "b" = "104",
-# "c" = "973",
-# etc. For all lower/uppercase, numbers and symbols
-# generate unique n-length keys for all values
+
 import random
 messageCoords = []
 randomizedMessage = []
