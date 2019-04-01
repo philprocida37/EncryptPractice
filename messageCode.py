@@ -1,4 +1,3 @@
-
 import random
 messageCoords = []
 randomizedMessage = []
@@ -121,11 +120,11 @@ def decodeLayerTwo(message):
 
 y = str(input("Enter a message to encrypt: "))
 n = convertMessage(y)
-print("Converted message; layer one: \n\t"+str(convertMessage(y)))
+print("Converted message; layer one: \n\t"+str(n))
 m = encodeLayerTwo(n)
-print("Encoding message; layer two: \n\t"+str(encodeLayerTwo(n)))
+print("Encoding message; layer two: \n\t"+str(m))
 o = ''.join(randomizedMessage)
 print("Encrpyted message: \n\t"+o)
 p = decodeLayerTwo(m)
-print("Decocding message; layer two: \n\t"+str(decodeLayerTwo(m)))
+print("Decocding message; layer two: \n\t"+str(p))
 print("De-converting message; layer one: \n\t"+str(deConvert(p)))
