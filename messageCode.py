@@ -2,7 +2,12 @@
 	# the lookup table (switchBoard)
 	# the starting values (randomizedMessage)
 	# the iterations for each value (decodeCoords)
-	# character equivalencies chart (charValue)
+# wordConverion = {
+# "a" = "582",
+# "b" = "104",
+# "c" = "973",
+# etc. For all lower/uppercase, numbers and symbols
+# generate unique n-length keys for all values
 import random
 messageCoords = []
 randomizedMessage = []
@@ -103,7 +108,7 @@ def encodeLayerTwo(message):
 			x = int(switch(x))
 			i += 1
 		messageCoords.append([i, x])
-		randomizedMessage.append(x)
+		randomizedMessage.append(str(x))
 		decodeCoords.append(i)
 		iters += 1
 	return messageCoords
@@ -128,7 +133,7 @@ n = convertMessage(y)
 print("Converted message; layer one: \n\t"+str(convertMessage(y)))
 m = encodeLayerTwo(n)
 print("Encoding message; layer two: \n\t"+str(encodeLayerTwo(n)))
-o = ''.join(str(randomizedMessage))
+o = ''.join(randomizedMessage)
 print("Encrpyted message: \n\t"+o)
 p = decodeLayerTwo(m)
 print("Decocding message; layer two: \n\t"+str(decodeLayerTwo(m)))
