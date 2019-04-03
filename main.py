@@ -13,13 +13,16 @@ def menu(choice):
     if(choice == 2):
         try:
             r = str(input("\nEnter a message to encode: "))
+            r = r.replace(" ", "_")
             r = convertMessage(r)
             encodeLayerTwo(r)
         except:
             print("Error")
     if(choice == 3):
         try:
-            print("Message: "+deconvertMessage(decodeLayerTwo()))
+            r = deconvertMessage(decodeLayerTwo())
+            r = r.replace("_", " ")
+            print("Message: "+r)
         except:
             print("Error")
 try:

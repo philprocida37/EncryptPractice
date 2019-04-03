@@ -1,6 +1,6 @@
 import random, os
 
-chars = list("!#$%&()*+,-./0123456789<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ^_abcdefghijklnopqrstuvwxyz") #<-- base set, 82 characters
+chars = list("!#$%&()*+,-./0123456789<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ^_abcdefghijklmnopqrstuvwxyz") #<-- base set, 82 characters
 # allow user to edit this set in UI (check for duplicates)
 
 shuffles = 0
@@ -79,4 +79,4 @@ def charKeysGen(stringKeySize):
             printKeys += 1
         exporter.write("}")
         exporter.close()
-    print("Keys generate")
+    print("Keys generates")

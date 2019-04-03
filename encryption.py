@@ -72,7 +72,7 @@ try:
 												print("Error")
 												break
 
-										y = random.randint(1, 250)
+										y = random.randint(1, 100)
 										i = 0
 										try:
 												x = switch(uIn)
