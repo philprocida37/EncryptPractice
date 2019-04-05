@@ -4,6 +4,9 @@ Practice with encryption. Basic encryption algorithm in Python.
 This program utilizes string manipulation and dictionaries in order to generate relation tables and character key values in order to
 encrypt messages. Through randomization the process is further strengthend.
 
+The current character set contains 82 characters. 26 lowercase English alphabet characters, 26 upper case English alphabet characters,
+10 numerical characters, and 20 symbols. This list can be changed in the keyGenerator.py file (plan to change this list from main.py).
+
 Encryption process:
   1) Generate relation table (a -> b -> c -> a, for example) using keyGenerator.py's functions. Keys and relations are generated of randomly chosen characters, and key lengths are determined by the person creating them. Relation tables are generated from the given character set, shuffled randomly a given amount of times
   2) Using the previously generated relations and keys, input a message to encryption.py. Each character is randomized by steping through the relation table N number of times, where N is random for each character of the key
