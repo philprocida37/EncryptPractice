@@ -45,7 +45,7 @@ This is an extremely basic and for explanation purposes only example. Below is w
 and key set (length of 25)  would look like.
      
 
-Keys: {	">":"2U1aOA_1t+b&5smo2+C+e1KlZ", 	"+":"@%kytv,ZOJ)Sag+3GVHe?zbsY", 	"B":"KJDwLeSclf%/^UI0tNZCj!*UE", 	
+1) Keys: {	">":"2U1aOA_1t+b&5smo2+C+e1KlZ", 	"+":"@%kytv,ZOJ)Sag+3GVHe?zbsY", 	"B":"KJDwLeSclf%/^UI0tNZCj!*UE", 	
         "Q":"WJj$Cy<*A<B8L^Rd>iMX=x8oF", 	"d":"J&cb<g9l7ObbQnx2jte!k<-yT", 	"F":"3r)5Ssd3EaP7Mqi4_zfunR=Z+", 	
         "E":"?CM9r3!/7^DjC@g01R7&!s9EY", 	"$":"dcTMJCyV#%*Abio6RNp(X&Y>j", 	"C":"o/7$gk)W4Dti*^yUsImm6waQk", 	
         "Y":"qT!vvUy6c-G=DQiSK,)YZI>SQ", 	"/":"9MxIXFMP7s/S6y%)dY8<HfZJ>", 	"M":"VA)D5.Mu7b4>bG429V3X#fQd_", 	
@@ -74,7 +74,7 @@ Keys: {	">":"2U1aOA_1t+b&5smo2+C+e1KlZ", 	"+":"@%kytv,ZOJ)Sag+3GVHe?zbsY", 	"B":
         "s":"uxk#yrtQ>z=#B7?M)Vu-2?xaT", 	".":"cZx38E5y>Elmkt@-W%2_*lZgV", 	"=":"LlTJR@n.SA2_yX.Yyc+X*WwRS", 	
         "k":"?L1@E9Em*^KbnR^1(n)a>+iLt", }
         
-relation table: {	">":"+", 	"+":"B", 	"B":"Q", 	"Q":"d", 	"d":"F", 	"F":"E", 	"E":"$", 	"$":"C", 	"C":"Y", 	
+2) relation table: {	">":"+", 	"+":"B", 	"B":"Q", 	"Q":"d", 	"d":"F", 	"F":"E", 	"E":"$", 	"$":"C", 	"C":"Y", 	
                   "Y":"/", 	"/":"M", 	"M":"(", 	"(":"6", 	"6":")", 	")":"p", 	"p":"X", 	"X":"P", 	"P":"G", 	
                   "G":"x", 	"x":"j", 	"j":"g", 	"g":"W", 	"W":"_", 	"_":"H", 	"H":"<", 	"<":"O", 	"O":"@", 
                   "@":"U", 	"U":"5", 	"5":"f", 	"f":"y", 	"y":"4", 	"4":"*", 	"*":"r", 	"r":"I", 	"I":"h", 
@@ -85,8 +85,8 @@ relation table: {	">":"+", 	"+":"B", 	"B":"Q", 	"Q":"d", 	"d":"F", 	"F":"E", 	"E
                   "0":"a", 	"a":"b", 	"b":"n", 	"n":"7", 	"7":"v", 	"v":"s", 	"s":".", 	".":"=", 	"=":"k", 
                   "k":">", }
      
-message (plaintext): these are words that will be encrpyted
-message (encrypted): 
+3) message (plaintext): these are words that will be encrpyted
+4) message (encrypted): 
 25 .
 76 x
 52 I
